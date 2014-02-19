@@ -73,7 +73,7 @@ and functions accessable from both Python and Cython.
             ),
         ],
         cmdclass = {'build_ext': build_ext},
-        packages=[''],
+        packages=['geotools'],
         package_dir={'': 'geotools'},
         package_data={'': ['*.pxd']},
     )
